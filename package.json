@@ -7,7 +7,7 @@
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saad/dev-health-reminder"
+    "url": "https://github.com/Mr-Engnr/dev-health-reminder.git"
   },
   "keywords": ["health", "break", "developer", "productivity", "timer"],
   "engines": {
