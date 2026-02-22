@@ -1,0 +1,73 @@
+{
+  "name": "dev-health-reminder",
+  "displayName": "Dev Health Reminder",
+  "description": "Smart break reminders for developers — eye care, posture, movement. Fully offline, zero telemetry.",
+  "version": "0.1.0",
+  "publisher": "saad",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saad/dev-health-reminder"
+  },
+  "keywords": ["health", "break", "developer", "productivity", "timer"],
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "dev-health-reminder.helloWorld",
+        "title": "Hello World"
+      }
+    ],
+    "configuration": {
+      "title": "Dev Health Reminder",
+      "properties": {
+        "devHealth.microInterval": {
+          "type": "number",
+          "default": 20,
+          "description": "Micro break interval in minutes"
+        },
+        "devHealth.mediumInterval": {
+          "type": "number",
+          "default": 60,
+          "description": "Medium break interval in minutes"
+        },
+        "devHealth.longInterval": {
+          "type": "number",
+          "default": 120,
+          "description": "Long break interval in minutes"
+        },
+        "devHealth.tone": {
+          "type": "string",
+          "enum": ["genz", "professional", "mixed"],
+          "default": "mixed",
+          "description": "Tone of the break messages"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.109.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.54.0",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
