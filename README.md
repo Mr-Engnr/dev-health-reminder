@@ -1,48 +1,94 @@
-# Dev Health Reminder
+# 🧠 Dev Health Reminder
 
-Smart break reminders for developers — eye care, posture, movement. **Fully offline, zero telemetry.**
+> *Code hard. Break smart. Stay alive.*
 
-## Why?
+A lightweight, privacy-first productivity extension for VS Code that promotes sustainable coding habits through structured break reminders.
 
-Long coding sessions hurt your eyes, back, and body. Dev Health Reminder nudges you to take micro, medium, and long breaks — right inside VS Code.
+Built for devs who value focus, long-term health, and uninterrupted flow. No bloat. No tracking. Just vibes. 🔥
 
-## Features
+---
 
-- **Three break tiers** — micro (20 min), medium (60 min), long (120 min)
-- **Randomized exercises** — eye care, stretches, movement
-- **Three message tones**
-  - `genz` — fun, emoji-heavy, meme-style
-  - `professional` — clean, formal, no emoji
-  - `mixed` — balanced with light humor
-- **Idle detection** — timers pause when you stop typing for 5 minutes
-- **Fully configurable** — adjust intervals and tone in VS Code settings
+## 💡 Why This Exists
 
-## Privacy First
+Extended coding sessions → eye strain, back pain, brain fog, burnout.
 
-- 100% offline
-- No telemetry
-- No external API calls
-- No data collection
-- Works entirely inside VS Code
+Dev Health Reminder drops smart, timed break notifications directly into VS Code — without killing your flow.
 
-## Settings
+Runs **100% offline**. Collects **zero data**. Period.
 
-Open **Settings** (`Ctrl+,`) and search for `devHealth`:
+---
 
-| Setting                   | Default | Description                    |
-| ------------------------- | ------- | ------------------------------ |
-| `devHealth.microInterval`  | `20`    | Micro break interval (minutes) |
-| `devHealth.mediumInterval` | `60`    | Medium break interval (minutes)|
-| `devHealth.longInterval`   | `120`   | Long break interval (minutes)  |
-| `devHealth.tone`           | `mixed` | Message tone: genz, professional, mixed |
+## ⚡ Core Features
 
-## Usage
+### 🕐 Structured Break Intervals
 
-1. Install the extension
-2. It activates automatically when VS Code starts
-3. Break reminders appear as info notifications
-4. Customize intervals and tone in settings
+| Tier | Purpose |
+|------|---------|
+| **Micro** | Quick eye-rest reminders |
+| **Medium** | Posture & mobility resets |
+| **Long** | Full recovery breaks |
 
-## License
+All intervals fully customizable.
 
-MIT
+### 🧘 Intelligent Idle Detection
+
+- Auto-pauses timers when you're AFK
+- No pointless notifications while you're grabbing coffee
+- Reminders sync with actual coding time
+
+### 🎭 Notification Tones
+
+Pick your vibe:
+
+| Tone | Style |
+|------|-------|
+| `professional` | Clean. Formal. No emoji. |
+| `mixed` | Balanced. Chill. One emoji max. |
+| `genz` | Unhinged. Emoji chaos. "touch grass bro" energy. 💀 |
+
+---
+
+## 🔒 Privacy & Security
+
+```
+✅ 100% offline
+✅ Zero telemetry
+✅ Zero analytics
+✅ Zero external API calls
+✅ Zero data storage
+✅ All logic runs locally inside VS Code
+```
+
+No cap. Your data stays yours. 🛡️
+
+---
+
+## ⚙️ Configuration
+
+Open **Settings** (`Ctrl+,`) → search `devHealth`
+
+| Setting | Default | Description |
+|---------|---------|-------------|
+| `devHealth.microInterval` | `20` | Micro break interval (min) |
+| `devHealth.mediumInterval` | `60` | Medium break interval (min) |
+| `devHealth.longInterval` | `120` | Long break interval (min) |
+| `devHealth.tone` | `mixed` | Tone: `professional`, `mixed`, `genz` |
+
+---
+
+## 🚀 Activation
+
+- Activates automatically on VS Code startup
+- Runs silently in the background
+- Break reminders show as info prompts
+- Zero config needed after install
+
+---
+
+## 📜 License
+
+MIT — do whatever you want with it.
+
+---
+
+*Built with 💚 for developers who forget to blink.*
