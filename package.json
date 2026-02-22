@@ -2,7 +2,7 @@
   "name": "dev-health-reminder",
   "displayName": "Dev Health Reminder",
   "description": "Smart break reminders for developers — eye care, posture, movement. Fully offline, zero telemetry.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "publisher": "saad-devhealth",
   "icon": "images/icon.png",
