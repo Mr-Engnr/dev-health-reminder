@@ -1,6 +1,6 @@
-# 🧠 Dev Health Reminder
+#  Dev Health Reminder
 
-> *Code hard. Break smart. Stay alive.*
+> *Build relentlessly. Break intentionally.*
 
 A lightweight, privacy-first productivity extension for VS Code that promotes sustainable coding habits through structured break reminders.
 
@@ -51,12 +51,12 @@ Pick your vibe:
 ## 🔒 Privacy & Security
 
 ```
-✅ 100% offline
-✅ Zero telemetry
-✅ Zero analytics
-✅ Zero external API calls
-✅ Zero data storage
-✅ All logic runs locally inside VS Code
+ 100% offline
+ Zero telemetry
+ Zero analytics
+ Zero external API calls
+ Zero data storage
+ All logic runs locally inside VS Code
 ```
 
 No cap. Your data stays yours. 🛡️
